@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Categories</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <ul>
+            <li class="pod-item"><a href="index.html">Home</a></li>
+            <li class="pod-item"><a href="archives.html?pod=art">Art</a></li>
+            <li class="pod-item"><a href="archives.html?pod=fashion">Fashion</a></li>
+            <li class="pod-item"><a href="archives.html?pod=lifestyle">Lifestyle</a></li>
+            <li class="pod-item"><a href="archives.html?pod=music">Music</a></li>
+            <li class="pod-item"><a href="archives.html?pod=movies">Movies</a></li>
+        </ul>
+    </div>
+    <div class="subcat">
+        <ul>
+            <a href="/archives.html?pod=music">All</a>
+        </ul>
+    </div>
+    <form action="search.html">
+        <input name="search" type="search">
+        <input type="submit" value="search">
+    </form>
+    <section id="templateCopiesContainer" class="">
+
+    </section>
+    <template id="myTemplate" class="podTemplate">
+        <article>
+            <header>
+                        <div class="categories">
+                            <a class="link-to-post" href="archives.html">
+                                <h1 class="template-title">TITLE GOES HERE</h1>
+                            </a>
+                                <img class="banner" src="" alt="event image">
+                                <div class="ticket_price"></div>
+                        </div>
+            </header>
+        </article>
+    </template>
+    <script src="archives.js"></script>
+</body>
+
+</html>
